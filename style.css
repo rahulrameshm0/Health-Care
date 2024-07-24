@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+ font-size: 62.5%;
+}
+
+body{
+    font-family: "Rubik", sans-serif;
+}
+
+.nav-bar-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 1.4rem 4.4rem;
+    border-bottom: 1px solid #ecedef;
+}
+
+.nav_bar-1, p{
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    color:#868e96;
+}
+
+.list-icon{
+    stroke: #c0eb75;
+    width: 2.4rem;
+    height: 2.4rem;
+    cursor: pointer;
+}
+
+.contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    color: #868e96;
+    font-size: 1.2rem;
+    gap: 1.8rem;
+}
+
+.contact-items a{
+    text-decoration: none;
+    color: #868e96;
+    transition: all 0.3s;
+}
+
+.contact-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.contact-items a:hover{
+    color: #c0eb75;
+}
