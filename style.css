@@ -10,7 +10,7 @@ html{
 }
 
 body{
-    font-family: "Rubik", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .nav-bar-1{
@@ -71,7 +71,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 2.2rem 2.4rem 2.2rem 2.4rem;
-    box-shadow: 0 0.3rem 0.4rem rgba(0,0,0,0.1);
+    box-shadow: 0 0.1 0.8rem rgba(0,0,0,0.75);
  }
 
 .health-care a{
@@ -122,7 +122,7 @@ body{
 
 .section-1{
     padding: 9.6rem 6.6rem;
-     background-color: #fbf6f6; 
+     background-color: #f2f2f2; 
 }
 
 .container{
@@ -212,6 +212,98 @@ body{
   }
 
 
-.container-2{
-  display: flex;
+.st-head{
+  font-size: 2.4rem;
+  margin-top: 3.4rem;
+  margin-bottom: 2.4rem;
+  font-weight: 600;
+}
+
+.review{
+  line-height: 1.8;
+  margin-bottom: 2.4rem;
+  font-size: 1.4rem;
+  color: #7f7b7b;
+}
+
+.pregnancy{
+  border-left:4px solid #bdbaba;
+  margin-bottom: 2.4rem;
+  line-height: 1.6;
+  color: #44474a;
+  padding-left: 2rem;
+  font-size: 1.8rem;
+}
+
+.p-3{
+  margin-bottom: 2.2rem;
+  line-height: 1.8;
+  font-size: 1.4rem;
+  color: #7f7b7b;
+}
+
+.list-item{
+  list-style:circle ;
+  font-size: 1.4rem;
+  line-height: 2;
+  margin-bottom: 1.8rem;
+  margin-left: 3.2rem;
+  color: #44474a;
+}
+
+.p-4{
+  font-size: 1.4rem;
+  margin-bottom: 1.8rem;
+  color:#7f7b7b;
+}
+
+.article{
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.article-link{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.article-link a{
+  display: inline-block;
+  margin: 0.8rem;
+  text-decoration: none;
+  align-items: center;
+}
+ .facebook{ 
+  background-color: #0b4a84;
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  border-radius:2.4rem;
+}
+
+.twitter{
+  background-color: #4dabf7;
+  color: #fff;
+  padding: 0.8rem 1.8rem;
+  border-radius:2.4rem;
+}
+.google{
+  background-color: #e8590c;
+  color: #fff;
+  padding: 0.8rem 1.8rem;
+  border-radius:2.4rem;
+}
+
+.article-icon{
+
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.1rem;
+  margin-right: 0.5rem;
+  
 }
