@@ -357,7 +357,7 @@ FOOTER-SECTION
   display: grid;
   grid-template-columns: repeat(3,1fr);
   padding: 9.6rem 6.6rem;
-  gap: 1.8rem;
+  gap: 2.8rem;
  }
 
  .footer-details img{ 
@@ -372,10 +372,11 @@ FOOTER-SECTION
 
  .details{
   list-style: none;
+  margin-top: 1.8rem;
  }
 
  .footer-details li{
-  margin-top: 1.8rem;
+  /* margin-top: 1.8rem; */
  }
 
  footer a{
@@ -399,3 +400,60 @@ FOOTER-SECTION
  footer a:hover{
   color: #1971c2;
  }
+
+.latest-news a{
+  text-decoration: none;
+}
+
+.footer-stories{
+  display: inline-block;
+  vertical-align: top;  
+}
+
+.h-5 a{
+  text-decoration: none;
+}
+
+.icon-list{
+  display:flex;
+  list-style: none;
+  gap: 1.8rem;
+}
+
+.footer-list-icon{
+  width: 1.6rem;
+  height: 1.6rem;
+  transition: all 0.3s;
+}
+
+.icon-list li a{
+  transition: all 0.3s;
+}
+
+.footer-list-icon{
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-top: 1.6rem;
+}
+
+.icon-list li a:hover{
+  background-color: #0b4a84;
+  color: #fff;
+  border-radius: 50%;
+  padding: 0.8rem;
+}
+
+.contact-head{
+  margin-bottom: 1.8rem;
+}
+
+.saturday{
+ margin-top: 1.2rem;
+}
+.sunday{
+  margin-top: 1.2rem;
+}
+
+
+
+
