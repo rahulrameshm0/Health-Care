@@ -362,8 +362,9 @@ FOOTER-SECTION
 
  .footer-details img{ 
   border-radius: 100%;
-  width: 30%;
+  width: 25%;
   height: auto;
+  margin: 1rem;
  }
  .contact-head{
   font-size: 2.2rem ;
@@ -373,10 +374,6 @@ FOOTER-SECTION
  .details{
   list-style: none;
   margin-top: 1.8rem;
- }
-
- .footer-details li{
-  /* margin-top: 1.8rem; */
  }
 
  footer a{
@@ -406,8 +403,8 @@ FOOTER-SECTION
 }
 
 .footer-stories{
-  display: inline-block;
-  vertical-align: top;  
+  display: block;
+  justify-content: end;
 }
 
 .h-5 a{
@@ -433,13 +430,12 @@ FOOTER-SECTION
 .footer-list-icon{
   width: 1.6rem;
   height: 1.6rem;
-  margin-top: 1.6rem;
 }
 
 .icon-list li a:hover{
   background-color: #0b4a84;
   color: #fff;
-  border-radius: 50%;
+  border-radius: 100%;
   padding: 0.8rem;
 }
 
@@ -452,6 +448,12 @@ FOOTER-SECTION
 }
 .sunday{
   margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.footer-img img{
+  display: inline-block;
+
 }
 
 
