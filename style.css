@@ -424,7 +424,8 @@ FOOTER-SECTION
 }
 
 .icon-list li a{
-  transition: all 0.3s;
+  transition: all 0.5s;
+  padding: 0.8rem;
 }
 
 .footer-list-icon{
@@ -436,7 +437,6 @@ FOOTER-SECTION
   background-color: #0b4a84;
   color: #fff;
   border-radius: 100%;
-  padding: 0.8rem;
 }
 
 .contact-head{
@@ -456,6 +456,9 @@ FOOTER-SECTION
 
 }
 
+.footer-section{
+  border-bottom: 1px solid #343535;
+}
 
 
 
